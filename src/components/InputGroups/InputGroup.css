@@ -1,0 +1,37 @@
+.cus_input {
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    color:#46474a;
+    outline: 0;
+    font-family: Bogle;
+    padding: 3px;
+}
+.input-group:hover {
+  border-radius: 0px;
+  background: white;
+}
+  .input-group {
+    border-radius: 30px;
+    display: flex;
+    height: 38px;
+  }
+  
+  .input-group .cus_input{
+    border: 0;
+    flex-grow: 1;
+    padding: 3px;
+    /* padding: 1.5rem 1rem ; */
+  }
+  .icon-container {
+    border-radius: 100%;
+    display: inline-flex;
+    justify-self: center;
+    align-items: center;
+    background: #fff;
+  }
+  .icon-container-icon {
+    margin: 4px;
+    background: yellow;
+    padding: 4px;
+    border-radius: 50%;
+  }

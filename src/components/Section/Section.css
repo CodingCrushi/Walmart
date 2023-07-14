@@ -1,0 +1,27 @@
+.small-sec {
+    margin: 1.2rem;
+    position: relative;
+}
+
+.section_img {
+    border-radius: 8px;
+    width: 100%;
+    height: 100%;
+}
+.section_text {
+    position: absolute;
+    top: 26px;
+    left: 26px;
+    width: 180px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.section_text p {
+    color: rgb(4, 30, 66);
+    font-size: 2.4rem;
+    font-family: BogleBold;
+}
+.section_text a {
+    font-size: 1.4rem;
+    color: #2e2f32;
+}

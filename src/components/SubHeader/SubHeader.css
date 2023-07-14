@@ -1,0 +1,25 @@
+.subHeader {
+    padding: 4px 16px;
+    display: flex;
+    gap: 3px;
+    align-items: center;
+}
+.subheader_item {
+    align-items: center;
+    color: #fff;
+    display: flex;
+    font-family: BogleBold;
+    font-size: 15px;
+    justify-content: flex-start;
+}
+
+.subheader_item::after {
+    content: "|";
+    color: white;
+    padding: 0.3rem;
+}
+
+.subheader_item_img {
+    width: 26px;
+    height: 26px;
+}
